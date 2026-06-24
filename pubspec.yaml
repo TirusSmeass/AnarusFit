@@ -1,0 +1,15 @@
+name: anarus_fit  # <- harus lowercase dengan underscore
+description: Aplikasi hitung kalori untuk diet dan bulking
+publish_to: 'none'  # tidak dipublikasikan ke pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+
+flutter:
+  uses-material-design: true
